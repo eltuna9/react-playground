@@ -9,3 +9,7 @@ Easy, just followed the [Create React App guide for Typescript](https://create-r
 # How is this repo deploying to an actual domain?
 
 Even easier! just check out how [netlify](https://www.netlify.com/) works!
+
+# Production domain
+
+[https://modest-swirles-9435fd.netlify.app/](https://modest-swirles-9435fd.netlify.app/)
