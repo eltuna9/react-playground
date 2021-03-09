@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import * as css from './jokerCss';
 interface Joke {
   id: number;
   punchline: string;
@@ -19,7 +19,7 @@ export function JokeTeller() {
   return (
     <div>
       <h3>Hi, I am the joke teller. Click the button for funs</h3>
-      <button style={{ padding: '1rem', color: 'red' }} onClick={() => getTheJoke()}>
+      <button style={css.jokerCss} onClick={() => getTheJoke()}>
         Tell me a joke buddy
       </button>
       {joke && (

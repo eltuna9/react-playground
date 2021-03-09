@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Counter } from './Counter';
-import { CounterWithHooks } from './CounterWithHooks';
+// import { Counter } from './Counter';
+// import { CounterWithHooks } from './CounterWithHooks';
 import { JokeTeller } from './jokes';
 
 function App() {
